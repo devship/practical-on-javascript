@@ -15,6 +15,7 @@ body{
     height: 360px;
     border-radius: 20px;
     padding: 35px, 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color:#ff66ff;
 }
 .piano_container header{
@@ -92,7 +93,7 @@ header .volume span{
     width: 70px;
     height: 230px;
     background: linear-gradient(#fff 96%, #eee 4%);
-    border: 1px solid #6600ff;
+    border: 1px solid #ff66ff;
     border-radius: 8px;
 }
 .piano-keys .white.active {
