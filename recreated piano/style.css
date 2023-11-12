@@ -5,6 +5,7 @@ body{
     margin: 0;
     background-image:url(notes/background\ image.avif);
     /* background-repeat: no-repeat; */
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,13 +17,16 @@ body{
     border-radius: 20px;
     padding: 35px, 40px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-color:#ff66ff;
+    /* background-color:hsl(320, 100%, 46%); */
+    /* background-color:hsl(313, 100%, 38%); */
+    background-color: #ec28b7;
+
 }
 .piano_container header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    color: #6660ff;
+    color: #fff;
 }
 header h2 {
     font-size: 1.6rem;
@@ -37,7 +41,7 @@ header .volume span{
     font-size: 1.19rem;
 }
 .volume-slider input {
-    accent-color: #fff;
+    accent-color: #6600cc;
 }
 .volume-keys_checkbox input {
   width:50px;  
@@ -46,7 +50,7 @@ header .volume span{
  border-radius: 30px;
  position: relative;
  bottom: -10px;
- background: #4b4b4b;  
+ background: #6600cc;  
 }
 .volume-keys_checkbox  input::before{
     content: " ";
@@ -56,13 +60,13 @@ header .volume span{
       top: 50%; 
     left: 5px;  
     border-radius: 50%;
-    background-color: #8c8c8c;
+    background-color: #ffccff;
      transform: translateY(-50%);
     translate: all 0.3s ease; 
 }
 .volume-keys_checkbox  input:checked::before{
      left: 35px; 
-    background: #fff;
+    background:#fff;
 
 }
 .keynote {
@@ -115,3 +119,6 @@ header .volume span{
  .piano-keys  .hide span {
     display: none;
  }
+
+ 
+    
