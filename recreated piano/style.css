@@ -69,6 +69,9 @@ header .volume span{
     background:#fff;
 
 }
+.volume-keys_checkbox  label .show keys, .volume-keys_checkbox label .hide keys {
+   color: red;
+}
 .keynote {
     color: #a2a2a2;
      position: relative;

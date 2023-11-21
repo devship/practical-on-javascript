@@ -1,6 +1,8 @@
 const pianoKeys = document.querySelectorAll('.piano-keys .key');
-const volumeSlider = document.querySelector('.volume-slider input');
+const volumeSlider = document.querySelector('.volume-slider input ');
 const keyscheckBox = document.querySelector('.volume-keys_checkbox input');
+
+
  let allKeys=[],
   audio = new Audio ('notes/notes/a.mp3');
 
@@ -26,11 +28,14 @@ pianoKeys.forEach(key => {
 })
 const handleVolume = (e) => {
     audio.volume = e.target.value; //passing the range slider as an audio volume
+    
 }
+
 const showHideKeys = () => {
     // toggling hide class from each key on the checkbox click
     pianoKeys.forEach(key => key.classList.toggle('hide'));
 }
+
 
 // playing with the keyboard
 const pressedKey = (e) => {
