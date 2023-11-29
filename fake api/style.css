@@ -1,0 +1,64 @@
+*,*::before, *::after {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-color:#ccc;
+    justify-content: center; 
+    align-items: center;  
+}
+ .heading {
+    text-align: center;
+    /* margin-bottom: 1.5rem; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:  clamp(1rem, 1.5vw, 1rem);
+} 
+.api {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+     width: 100%; 
+    max-width: 80%;
+    position: relative;
+    bottom: -100%;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.image {
+    width: 100%;
+    height: 8rem;
+}
+.catalogue {
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    align-content: center;
+    box-shadow: 0 0 4px 3px orangered;
+    margin-bottom: 2em;
+}
+.category, .price {
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 1em;
+    font-size: clamp(1rem, 1.5vw, 1rem);
+    word-wrap: break-word;
+}
+.description {
+    font-size: Clamp(1rem, 1.5vw, 1rem);
+    word-wrap: break-word;
+}
+.title {
+    font-size:  clamp(1rem, 1.5vw, 1rem);
+    word-wrap: break-word;
+}
